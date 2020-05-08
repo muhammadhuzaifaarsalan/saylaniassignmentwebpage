@@ -1,0 +1,51 @@
+.nav-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #316DC3;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.nav-container-l {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    cursor: default;
+}
+
+.hlogo {
+    position: relative;
+    padding-left: 140px;
+    color: #003cff;
+}
+
+.logo span {
+    font-size: 15px;
+    color: #f1f1f1;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.botton b {
+    background-color: #316DC3;
+}
